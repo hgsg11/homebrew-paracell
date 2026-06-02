@@ -4,22 +4,22 @@ cask "paracell" do
 
   on_macos do
     on_intel do
-      sha256 "5ec8267a2e40449f1586d5f145ac8cdf29688c461caccb626c3c04cc458504bc"
+      sha256 "56229c91200df759ea073d5f9c284103fd28c3e01bd9651398b06de98ee4cd7c"
       url "https://github.com/hgsg11/paracell/releases/download/v#{version}/paracell_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "074db19c363c044397aaaf7367bc88312189be1bef20453e00f0f0ca1feec8e1"
+      sha256 "140462a767529953cbcda6cff061f4d63d61bef9bf5bd94a2b0bb28b8faf5dc0"
       url "https://github.com/hgsg11/paracell/releases/download/v#{version}/paracell_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "86bc781410f997f86c00448504f1cc3e48a05c03adc9ff27286c0b99086c3024"
+      sha256 "40413f21ef145b72e3361f22b17cfd24aec865712a70d2e915c439ff7d65eea7"
       url "https://github.com/hgsg11/paracell/releases/download/v#{version}/paracell_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "eed932e291c16f488973ff55222c3729e9d991f2e763cd9c348884f81ad145e7"
+      sha256 "327389d7b0ec275edf6d86312789f696e078622cb293035a77a8cb5b320c794d"
       url "https://github.com/hgsg11/paracell/releases/download/v#{version}/paracell_linux_arm64.tar.gz"
     end
   end
